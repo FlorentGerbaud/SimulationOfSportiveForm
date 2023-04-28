@@ -1,0 +1,20 @@
+# simu 1 Athlète en reprise 
+E0=3 #3 training by week
+C0=0
+F0=0
+alpha=0.8 #séance réussite à 80%
+beta=0.5 # séance qui faitgue un peu mais sans plus
+
+# simu 1 Athlète en avec bcp de confiance, une bonne forme mais qui récupère mal 
+E0=3 #3 training by week
+C0=1.0
+F0=1.0
+alpha=0.8 #séance réussite
+beta=1
+
+# simu 1 Athlète en avec bcp de confiance, une bonne forme mais qui récupère très mal 
+E0=3 #3 training by week
+C0=1.0
+F0=1.0
+alpha=0.8 #séance réussite
+beta=2
