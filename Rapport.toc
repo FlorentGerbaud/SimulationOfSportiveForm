@@ -1,0 +1,5 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Un premier modèle }{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Le premier modèle mathématique }{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Les premier graphiques }{4}{subsection.1.2}%
+\contentsfinish 
