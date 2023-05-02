@@ -47,7 +47,7 @@
 }
 
 \title{\textbf{\Huge Polytech Nice}\\[1cm]
-	\textbf{\LARGE Création d'un modèle mathématique}\\[2cm]
+	\textbf{\LARGE Création d'un modèle mathématique dans le domaine du sport}\\[2cm]
 	\hrule height 1pt
 	\vspace{0.5cm}
 	\textbf{\Large Étude sur les paramètres qui créent les pics de forme chez un athlète}\\[0.5cm]
@@ -120,7 +120,7 @@
 			\centering
 			\includegraphics[width=\textwidth]{Graph1SImu1}
 			\caption{Un athlète avec peu de confiance et une qualité d'entrainement qui décroit avec le temps}
-			\label{fig:nom_figure}
+			\label{fig:fig1_1}
 		\end{figure}
 		
 		\underline{\textbf{Les conditions initiales}}
@@ -130,5 +130,85 @@
 				\alpha=0.3 \\
 				\beta=0.5
 				\end{array}}
+		\end{align*}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph2SImu1}
+			\caption{Un athlète avec peu de confiance et une qualité d'entrainement qui croit avec le temps}
+			\label{fig:fig1_3}
+		\end{figure}
+		
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=0.5 \\
+					C_0=0.3 \\
+					\alpha=0.7 \\
+					\beta=0.5
+			\end{array}}
+		\end{align*}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph3SImu1}
+			\caption{Un athlète avec beaucoup de confiance et une qualité d'entrainement parfaite}
+			\label{fig:1_3}
+		\end{figure}
+		
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=1 \\
+					C_0=1 \\
+					\alpha=0.7 \\
+					\beta=0.5
+			\end{array}}
+		\end{align*}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph4SImu1}
+			\caption{Un athlète avec beaucoup de confiance et une qualité d'entrainement qui se dégrade}
+			\label{fig:1_4}
+		\end{figure}
+		
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=1 \\
+					C_0=1 \\
+					\alpha=0.2 \\
+					\beta=0.5
+			\end{array}}
+		\end{align*}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph5SImu1}
+			\caption{Un athlète avec aucune confiance et une qualité d'entrainement qui se dégrade}
+			\label{fig:1_5}
+		\end{figure}
+		
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=0 \\
+					C_0=0 \\
+					\alpha=0.2 \\
+					\beta=0.5
+			\end{array}}
+		\end{align*}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph6SImu1}
+			\caption{Un athlète avec aucune confiance et une qualité d'entrainement qui s'améliore}
+			\label{fig:1_6}
+		\end{figure}
+		
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=0 \\
+					C_0=0 \\
+					\alpha=0.7 \\
+					\beta=0.5
+			\end{array}}
 		\end{align*}
 \end{document}
