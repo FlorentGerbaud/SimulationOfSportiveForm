@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.1)  2 MAY 2023 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.1)  4 MAY 2023 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,56 +1062,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
-<Graph1SImu1.png, id=35, 462.528pt x 346.896pt>
+<Graph1SImu1.png, id=50, 462.528pt x 346.896pt>
 File: Graph1SImu1.png Graphic file (type png)
 <use Graph1SImu1.png>
 Package pdftex.def Info: Graph1SImu1.png  used on input line 121.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 [3]
-<Graph2SImu1.png, id=52, 988.6536pt x 586.8324pt>
+<Graph2SImu1.png, id=67, 988.6536pt x 586.8324pt>
 File: Graph2SImu1.png Graphic file (type png)
 <use Graph2SImu1.png>
 Package pdftex.def Info: Graph2SImu1.png  used on input line 137.
 (pdftex.def)             Requested size: 345.0pt x 204.78552pt.
  [4 <./Graph1SImu1.png>]
-<Graph3SImu1.png, id=61, 988.6536pt x 586.8324pt>
+<Graph3SImu1.png, id=76, 988.6536pt x 586.8324pt>
 File: Graph3SImu1.png Graphic file (type png)
 <use Graph3SImu1.png>
 Package pdftex.def Info: Graph3SImu1.png  used on input line 153.
 (pdftex.def)             Requested size: 345.0pt x 204.78552pt.
  [5 <./Graph2SImu1.png>]
-<Graph4SImu1.png, id=68, 462.528pt x 346.896pt>
+<Graph4SImu1.png, id=83, 462.528pt x 346.896pt>
 File: Graph4SImu1.png Graphic file (type png)
 <use Graph4SImu1.png>
 Package pdftex.def Info: Graph4SImu1.png  used on input line 169.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
  [6 <./Graph3SImu1.png>]
-<Graph5SImu1.png, id=75, 462.528pt x 346.896pt>
+<Graph5SImu1.png, id=90, 462.528pt x 346.896pt>
 File: Graph5SImu1.png Graphic file (type png)
 <use Graph5SImu1.png>
 Package pdftex.def Info: Graph5SImu1.png  used on input line 185.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 [7 <./Graph4SImu1.png>]
-<Graph6SImu1.png, id=83, 462.528pt x 346.896pt>
+<Graph6SImu1.png, id=98, 462.528pt x 346.896pt>
 File: Graph6SImu1.png Graphic file (type png)
 <use Graph6SImu1.png>
 Package pdftex.def Info: Graph6SImu1.png  used on input line 201.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
- [8 <./Graph5SImu1.png>] [9 <./Graph6SImu1.png>]
-(Rapport.aux)
+ [8 <./Graph5SImu1.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{ss1}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.218 ...veau modèle mathématique }\label{ss21}}
+                                                  
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+[9 <./Graph6SImu1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 227--230
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+38.
+(C:\Users\flore\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 238.
+
+Overfull \hbox (108.31264pt too wide) detected at line 238
+[]
+ []
+
+<Graph1SImu2.png, id=112, 790.6338pt x 469.0323pt>
+File: Graph1SImu2.png Graphic file (type png)
+<use Graph1SImu2.png>
+Package pdftex.def Info: Graph1SImu2.png  used on input line 243.
+(pdftex.def)             Requested size: 345.0pt x 204.66437pt.
+[10]
+<Graph2SImu2.png, id=120, 988.6536pt x 586.8324pt>
+File: Graph2SImu2.png Graphic file (type png)
+<use Graph2SImu2.png>
+Package pdftex.def Info: Graph2SImu2.png  used on input line 258.
+(pdftex.def)             Requested size: 345.0pt x 204.78552pt.
+ [11 <./Graph1SImu2.png>] [12 <./Graph2SImu2.png>] (Rapport.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 5.12pt have occurred.
 
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: AAD99692CEC65D51AD50F1845673786C;556.
+(rerunfilecheck)             Checksum: 185CC003BC490595240A7A2A3A9BAC3A;1211.
  ) 
 Here is how much of TeX's memory you used:
- 25729 strings out of 476331
- 481656 string characters out of 5787766
+ 25795 strings out of 476331
+ 482744 string characters out of 5787766
  1861660 words of memory out of 5000000
- 45673 multiletter control sequences out of 15000+600000
+ 45726 multiletter control sequences out of 15000+600000
  521671 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,15n,118p,472b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1119,15 +1157,18 @@ Here is how much of TeX's memory you used:
 cmbx10.pfb><C:/Users/flore/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/flore/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/flore/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/flore/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flore/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/flore/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/flore/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/
-flore/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rapport.pdf (9 pages, 270729 bytes).
+ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/flore/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/flore/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/flore/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flore
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+rs/flore/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<C:/Users/flore/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r9.pfb><C:/Users/flore/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb>
+Output written on Rapport.pdf (12 pages, 491613 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

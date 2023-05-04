@@ -2,4 +2,7 @@
 \contentsline {section}{\numberline {1}Un premier modèle }{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Le premier modèle mathématique }{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Les premier graphiques }{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Une amélioration du premier modèle }{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Le nouveau modèle mathématique }{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Les nouveaux graphiques }{11}{subsection.2.2}%
 \contentsfinish 

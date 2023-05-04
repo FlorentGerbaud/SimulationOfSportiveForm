@@ -211,4 +211,60 @@
 					\beta=0.5
 			\end{array}}
 		\end{align*}
+		
+		\hypertarget{s2}{%
+		\section{Une amélioration du premier modèle }\label{s21}}
+		\hypertarget{ss1}{%
+		\subsection{Le nouveau modèle mathématique }\label{ss21}}
+		\underline{\textbf{Modèle mathématique}}
+		\newline
+		\begin{align*}
+			&N(t+1)=N(t) \\
+			&C(t+1)=C(t)+max\{-C(t),E(t)\} \\
+			&E(t+1)=E(t)+N(t)(\alpha(t)-\beta(t)) \\
+			&\boxed{\begin{array}{c} N(t) \ge 0 \\ C(t) \ge 0 \\
+					-1 \le E(t) \le 1\end{array}}
+		\end{align*}
+		\underline{\textbf{Les constantes}}
+		\newline
+		\begin{align*}
+			&\alpha(t) =\frac{X_t}{N(t)}, \ \text{t=\{1,....,nbSemaine\}}, \ X_t \sim \operatorname{Bin}(N(t),moySeanceValide) \\
+			&\beta(t) = \begin{cases}
+				\mathcal{U}_t[niveauFatigueMoyen-0.02,niveauFatigueMoyen+0.02] \ si \ X_t=1 \\
+				\mathcal{U}_t[0,1] \ sinon
+			\end{cases}, \ \ X_t \sim \operatorname{Bin}(1,0.9) \\
+			&moySeanceValidee:=\text{"probabilité de réussir en moyenne un certains nombre de séance"} \\
+			&niveauFatigueMoyen:=\text{"taux de fatigue moyen généré par une semaine d'entrainement"}
+		\end{align*}
+		\hypertarget{ss22}{%
+		\subsection{Les nouveaux graphiques }\label{ss22}}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph1SImu2}
+			\caption{Un athlète avec peu de confiance et une qualité d'entrainement qui décroit avec le temps}
+			\label{fig:2_1}
+		\end{figure}
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=0.5 \\
+					C_0=0.3 \\
+					moySeanceValidee=0.3 \\
+					niveauFatigueMoyen=0.5
+			\end{array}}
+		\end{align*}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\textwidth]{Graph2SImu2}
+			\caption{Un athlète avec peu de confiance et une qualité d'entrainement qui croit avec le temps}
+			\label{fig:2_2}
+		\end{figure}
+		\underline{\textbf{Les conditions initiales}}
+		\begin{align*}
+			\boxed{\begin{array}{c} N_0=\frac{3}{20} \\ E_0=0.5 \\
+					C_0=0.3 \\
+					moySeanceValidee=0.7 \\
+					niveauFatigueMoyen=0.5
+			\end{array}}
+		\end{align*}		
 \end{document}

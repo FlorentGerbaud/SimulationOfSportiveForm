@@ -5,9 +5,19 @@ import numpy as np
 import time as time
 import matplotlib.pyplot as plt
 
+###########################################
+# _____________ FONCTIONS _____________ #
+###########################################
+
+# Fonction qui renvoie le nombre d'entrainement par semaine
+#param: E0 (float) : durée du plan en semaine
 def E(E0):
     return E0
 
+# Fonction qui renvoie la confiance de l'athlète
+#param: C_t (float) : confiance de l'athlète à la semaine t
+#param: E_t (float) : nombre d'entrainement de l'athlète à la semaine t
+#param: alpha (float) : nombre d'entrainement de l'athlète réussie à la semaine t
 def C(C_t,E_t, alpha,Vseuil,Ce,beta):
     if(E_t*beta>Vseuil):
         return C_t+max(-C_t,alpha*E_t)
@@ -57,3 +67,4 @@ plt.title("Athlète avec beaucoup de confiance et une bonne forme qui récupère
 plt.show()
 # plt.plot(np.arange(0,nbSemaine,1),valE,':')
 # plt.show()
+
